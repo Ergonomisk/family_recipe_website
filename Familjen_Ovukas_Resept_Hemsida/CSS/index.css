@@ -6,8 +6,8 @@
 }
 
 nav {
-    background-color: #E67E22;
-    padding: 1rem;
+    background-color: #FFF8E1;
+    padding: 0.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,14 +15,15 @@ nav {
 }
 
 .logo {
-    color: white;
-    font-size: 1.5rem;
+    width: 3.8em;
     display: flex;
     align-items: center;
     gap: 0.5rem;
     z-index: 2;
 }
-
+nav h1{
+    color: #171515;
+}
 .nav-links {
     display: flex;
     gap: 1rem;
@@ -33,7 +34,7 @@ nav {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #FF5252;
 }
 
 .search-bar {
@@ -54,12 +55,12 @@ nav {
 .menu-toggle span {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #171515;
     transition: all 0.3s ease;
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/600');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url(/MEDIA/heroimage.jpg);
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -73,18 +74,18 @@ nav {
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    max-width: 600px;
+    max-width: 37.5rem; 
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    max-width: 500px;
+    max-width: 31.25rem;
 }
 
 .cta-button {
-    background-color: #E67E22;
-    color: white;
+    background-color: #4CAF50;
+    color: #171515;
     padding: 1rem 2rem;
     border: none;
     border-radius: 25px;
@@ -94,7 +95,7 @@ nav {
 }
 
 footer {
-    background-color: #1a1f36;
+    background-color: #880e24;
     color: white;
     padding: 3rem;
 }
@@ -110,7 +111,7 @@ footer {
 
 .footer-section p,
 .footer-section a {
-    color: #888;
+    color: #efd9d9;
     margin-bottom: 0.5rem;
     display: block;
     text-decoration: none;
@@ -130,7 +131,7 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #E67E22;
+        background-color:#FFF8E1;
         flex-direction: column;
         padding: 1rem;
         gap: 1rem;
