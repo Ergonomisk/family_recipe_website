@@ -88,7 +88,7 @@ nav h1{
     color: #171515;
     padding: 1rem 2rem;
     border: none;
-    border-radius: 25px;
+    border-radius: 1.625em;
     font-size: 1.1rem;
     cursor: pointer;
     width: fit-content;
@@ -100,8 +100,7 @@ footer {
     padding: 3rem;
 }
 
-.footer-content {
-    grid-template-columns: 1fr;
+.footer-section {
     text-align: center;
 }
 
@@ -183,3 +182,4 @@ footer {
         text-align: center;
     }
 }
+    

@@ -1,0 +1,34 @@
+.recipe_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.grid_container h2{
+    background-color: aqua;
+    grid-area: h;
+}
+.grid_container p {
+    background-color: blueviolet;
+    grid-area: p;
+}
+.grid_container ul{
+    background-color: bisque;
+    grid-area: u;
+}
+.grid_container img {
+    grid-area: i;
+    
+}
+@media (min-width: 600px) {
+    .recipe_container {
+        grid-template-areas: "h p u i";
+    }
+}
+
+@media (min-width: 900px) {
+    .recipe_container {
+        grid-template-areas: "SP SW CH";
+    }
+}
