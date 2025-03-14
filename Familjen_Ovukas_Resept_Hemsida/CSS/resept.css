@@ -1,34 +1,51 @@
+@font-face {
+    font-family: QuickKiss;
+    src: url(/MISC/QuickKissPersonalUse-PxlZ.ttf);
+}
+
 .recipe_container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 1rem;
+
+    /* Default grid-template-areas */
+    grid-template-areas:
+        "h h"
+        "i i"
+        "u u"
+        "p p";
 }
 
-.grid_container h2{
-    background-color: aqua;
+.recipe_container h2 {
     grid-area: h;
-}
-.grid_container p {
-    background-color: blueviolet;
-    grid-area: p;
-}
-.grid_container ul{
-    background-color: bisque;
-    grid-area: u;
-}
-.grid_container img {
-    grid-area: i;
+    font-family: QuickKiss;
+    font-size: 2em;
+    font-weight: 100;
     
 }
-@media (min-width: 600px) {
+
+.recipe_container p {
+    grid-area: p;
+}
+
+.recipe_container ul { 
+    grid-area: u;
+}
+.recipe_container li {
+ margin-left: 1em;
+}
+.recipe_container img {
+    grid-area: i;
+}
+
+/* Responsive grid for screens wider than 600px */
+@media (min-width: 768px) {
     .recipe_container {
-        grid-template-areas: "h p u i";
+        grid-template-areas:
+            "h h"
+            "u i"
+            "p p";
     }
 }
 
-@media (min-width: 900px) {
-    .recipe_container {
-        grid-template-areas: "SP SW CH";
-    }
-}
