@@ -6,8 +6,8 @@
 .recipe_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 1em;
+    padding: 1em;
 
     /* Default grid-template-areas */
     grid-template-areas:

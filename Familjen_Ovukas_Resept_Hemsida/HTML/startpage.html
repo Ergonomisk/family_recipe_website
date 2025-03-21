@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="nav-container">
         <img class="logo" src="/MEDIA/Chillpepper_logo.png" alt="logo">
         <h1> Ovukas Recept</h1>
         <div class="menu-toggle">
@@ -22,7 +22,10 @@
             <a href="/HTML/resept_hub.html">Recept</a>
             <a href="/HTML/omoss.html">Om oss</a>
         </div>
-        <input type="search" class="search-bar" placeholder="Sök efter recept...">
+        <div class="search-container">
+            <input type="search" class="search-bar" placeholder="Sök efter recept...">
+            <div class="search-results"></div>
+        </div>
     </nav>
 
     <article class="hero">
@@ -30,7 +33,7 @@
         <h1>Den officiella hemsidan för familjen Ovukas recept</h1>
         <p>Osäker på vad du ska laga för mat? Klicka på knappen under för undersöka vårat sortement!</p>
         </div>
-        <button class="cta-button" href="/HTML/resept_hub.html">Våra recept</button><!-- funkar ej -->
+        <a class="cta-button" href="/HTML/resept_hub.html">Våra recept</a><!-- funkar ej -->
         
     </article>
 

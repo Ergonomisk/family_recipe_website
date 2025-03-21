@@ -2,6 +2,7 @@
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
         const searchBar = document.querySelector('.search-bar');
+        const searchResults = document.querySelector('.search-results');
 
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
@@ -9,16 +10,46 @@
             menuToggle.classList.toggle('active');
         });
 
-        // Add smooth scrolling to CTA button
-        document.querySelector('.cta-button').addEventListener('click', () => {
-            window.scrollTo({
-                top: document.querySelector('footer').offsetTop,
-                behavior: 'smooth'
-            });
-        });
+        document.addEventListener('DOMContentLoaded', () => {
+    const searchBar = document.querySelector('.search-bar');
+    const searchResults = document.querySelector('.search-results');
 
-        // Simple search functionality
-        document.querySelector('.search-bar').addEventListener('input', (e) => {
-            console.log('Searching for:', e.target.value);
-            // Add actual search implementation here
-        });
+    const recipes = [
+        { name: "Sarma", link: "/HTML/resept_1.html" },
+        { name: "Köttbullar", link: "/HTML/resept_2.html" },
+        { name: "Smörgåstårta", link: "/HTML/resept_3.html" },
+        { name: "Kanelbullar", link: "/HTML/resept_4.html" },
+        { name: "Gräddtårta", link: "/HTML/resept_5.html" }
+    ];
+
+    searchBar.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase();
+        searchResults.innerHTML = ''; // Clear previous results
+
+        if (query.length === 0) {
+            searchResults.style.display = 'none';
+            return;
+        }
+
+        const filteredResults = recipes.filter(recipe => recipe.name.toLowerCase().includes(query));
+
+        if (filteredResults.length > 0) {
+            searchResults.style.display = 'block';
+            filteredResults.forEach(recipe => {
+                const link = document.createElement('a');
+                link.href = recipe.link;
+                link.textContent = recipe.name;
+                searchResults.appendChild(link);
+            });
+        } else {
+            searchResults.style.display = 'none';
+        }
+    });
+
+    // Hide search results when clicking outside
+    document.addEventListener('click', (event) => {
+        if (!searchBar.contains(event.target) && !searchResults.contains(event.target)) {
+            searchResults.style.display = 'none';
+        }
+    });
+});

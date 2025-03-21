@@ -1,0 +1,40 @@
+@font-face {
+    font-family: QuickKiss;
+    src: url(/MISC/QuickKissPersonalUse-PxlZ.ttf);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+.grid-container div{
+    background-color: #FFF8E1;
+    padding: 1em;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    text-align: center;
+    box-shadow: 0em 0.4em 0.425em rgba(0, 0, 0, 0.1);
+}
+h2{
+    font-family: QuickKiss;;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+}
+#vilkaviar {
+    margin: 1em 1em 0em 1em;
+    text-align: center;
+    font-size: 1em;
+    background-color: #FFF8E1;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0em 0.4em 0.425em rgba(0, 0, 0, 0.1);
+
+}
+ @media (min-width: 768px) {
+     .grid-container {
+         grid-template-columns: repeat(3, 1fr);
+     }
+ }
