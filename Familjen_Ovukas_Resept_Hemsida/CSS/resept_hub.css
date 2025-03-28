@@ -2,21 +2,32 @@
     font-family: QuickKiss;
     src: url(/MISC/QuickKissPersonalUse-PxlZ.ttf);
 }
+img {
+    width: 100%;
+    border-radius: 0.5em;
+    max-width: 25em;
+}
 .recipe-container {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1em;
-      padding: 1em;
-  }
-
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+.recipe p{
+    font-family: QuickKiss;
+}
   .recipe {
-      background-color: #FFF8E1;
-      font-size: 1.2em;
-      padding: 1em;
-      border-radius: 0.5em;
-      text-align: center;
-      box-shadow: 0em 0.4em 0.425em rgba(0, 0, 0, 0.1);
+    background-color: #FFF8E1;
+    font-size: 1.6em;
+    font-weight: 100;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    box-shadow: 0em 0.4em 0.425em rgba(0, 0, 0, 0.1);
   }
+  
 
   @media (min-width: 768px) {
       .recipe-container {

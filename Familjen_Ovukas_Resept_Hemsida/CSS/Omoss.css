@@ -17,6 +17,9 @@
     text-align: center;
     box-shadow: 0em 0.4em 0.425em rgba(0, 0, 0, 0.1);
 }
+img{
+    max-width: 100%;
+}
 h2{
     font-family: QuickKiss;;
     text-align: center;
