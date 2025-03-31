@@ -1,37 +1,39 @@
 @font-face {
-    font-family: QuickKiss;
-    src: url(/MISC/QuickKissPersonalUse-PxlZ.ttf);
+    font-family: "QuickKiss";
+    src: url("/MISC/QuickKissPersonalUse-PxlZ.ttf") format("truetype");
 }
+
 img {
     width: 100%;
-    border-radius: 0.5em;
-    max-width: 25em;
+    border-radius: 0.5rem;
+    max-width: 25rem;
 }
+
 .recipe-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1em;
-    padding: 1em;
+    gap: 1rem;
+    padding: 1rem;
 }
-.recipe p{
-    font-family: QuickKiss;
+
+.recipe p {
+    font-family: "QuickKiss", Arial, sans-serif;
 }
-  .recipe {
+
+.recipe {
     background-color: #FFF8E1;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: 100;
-    padding: 1em;
-    border-radius: 0.5em;
+    padding: 1rem;
+    border-radius: 0.5rem;
     text-decoration: none;
     text-align: center;
     color: black;
-    box-shadow: 0em 0.4em 0.425em rgba(0, 0, 0, 0.1);
-  }
-  
+    box-shadow: 0 0.4rem 0.425rem rgba(0, 0, 0, 0.1);
+}
 
-  @media (min-width: 768px) {
-      .recipe-container {
-          grid-template-columns: repeat(3, 1fr);
-      }
-  }
-
+@media (min-width: 768px) {
+    .recipe-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
