@@ -2,37 +2,56 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata for proper character encoding and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page, displayed on the browser tab -->
     <title>Ovukas_Recept</title>
+
+    <!-- Linking external CSS files for styling the page -->
     <link rel="stylesheet" href="/CSS/resept.css">
     <link rel="stylesheet" href="/CSS/index.css">
 </head>
 
 <body>
+    <!-- Header section with navigation bar -->
     <header>
         <nav class="nav-container">
+            <!-- Logo image for the website -->
             <img class="logo" src="/MEDIA/Chillpepper_logo.png" alt="logo">
+
+            <!-- Main title of the website -->
             <h1> Ovukas Recept</h1>
+
+            <!-- Hamburger menu for mobile responsiveness -->
             <div class="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <!-- Navigation links to various pages -->
             <div class="nav-links">
                 <a href="/HTML/startpage.html"> Hem</a>
                 <a href="/HTML/resept_hub.html">Recept</a>
                 <a href="/HTML/omoss.html">Om oss</a>
             </div>
+
+            <!-- Search bar for finding recipes or other content -->
             <div class="search-container">
                 <input type="search" class="search-bar" placeholder="Sök...">
                 <div class="search-results"></div>
             </div>
         </nav>
     </header>
+
+    <!-- Main content for the recipe page -->
     <article class="recipe_container">
+        <!-- Recipe title -->
         <h2>Flankstek med röd sås och ris</h2>
-    
+
+        <!-- List of ingredients for the recipe -->
         <ul>
             <li>450 g flankstek, putsad på fett</li>
             <li>2 matskedar Shaoxing risvin eller torr sherry</li>
@@ -50,7 +69,7 @@
             <li>1 medelstor gul lök, halverad från topp till botten och skivad på längden</li>
         </ul>
 
-    
+        <!-- Recipe instructions -->
         <p>
             Skär flanksteken mot fiberriktningen i ½-tums skivor och dela varje remsa i tredjedelar.
             I en medelstor skål, blanda 1 matsked risvin, sojasås, 2 teskedar majsstärkelse och socker, vispa ihop.
@@ -66,19 +85,20 @@
             Rör ner ketchupblandningen, låt koka upp och sedan tjockna, ca 45 sekunder.
             Lägg tillbaka köttet i pannan, rör om och låt det värmas i såsen. Servera omedelbart.
         </p>
-    
+
+        <!-- Image of the finished dish -->
         <img src="/MEDIA/beef_rice.png" alt="bild på mat">
     </article>
 
-
+    <!-- Footer with contact information -->
     <footer class="footer-section">
-
         <h3>Kontakta oss</h3>
         <p>📧 contact@ovukarecept.se</p>
         <p>📱 +46 18 567-890</p>
         <p>🏠 Köksvägen 3, Götteborg</p>
-
     </footer>
+
+    <!-- External JavaScript for additional functionality -->
     <script src="/JS/index.js"></script>
 </body>
 

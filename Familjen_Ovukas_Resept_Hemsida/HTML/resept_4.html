@@ -2,37 +2,56 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata for proper character encoding and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page, displayed on the browser tab -->
     <title>Ovukas_Recept</title>
+
+    <!-- Linking external CSS files for styling the page -->
     <link rel="stylesheet" href="/CSS/resept.css">
     <link rel="stylesheet" href="/CSS/index.css">
 </head>
 
 <body>
+    <!-- Header section with navigation bar -->
     <header>
         <nav class="nav-container">
+            <!-- Logo image for the website -->
             <img class="logo" src="/MEDIA/Chillpepper_logo.png" alt="logo">
+
+            <!-- Main title of the website -->
             <h1> Ovukas Recept</h1>
+
+            <!-- Hamburger menu for mobile responsiveness -->
             <div class="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <!-- Navigation links to various pages -->
             <div class="nav-links">
                 <a href="/HTML/startpage.html"> Hem</a>
                 <a href="/HTML/resept_hub.html">Recept</a>
                 <a href="/HTML/omoss.html">Om oss</a>
             </div>
+
+            <!-- Search bar for finding recipes or other content -->
             <div class="search-container">
                 <input type="search" class="search-bar" placeholder="Sök...">
                 <div class="search-results"></div>
             </div>
         </nav>
     </header>
+
+    <!-- Main content for the recipe page -->
     <article class="recipe_container">
+        <!-- Recipe title -->
         <h2>Kycklingspett</h2>
-    
+
+        <!-- List of ingredients for the recipe -->
         <ul>
             <li>3 msk ljus sirap</li>
             <li>1 msk färsk limejuice</li>
@@ -49,35 +68,38 @@
             <li>8 tjocka baconskivor, var och en delad i tre bitar</li>
             <li>½ dl färsk mynta till garnering</li>
         </ul>
-    
+
+        <!-- Recipe instructions -->
         <p>
             Om du använder träspett, blötlägg dem i vatten i 20 minuter innan grillning.
             Vispa ihop melass, limejuice och pepparsås i en skål och ställ åt sidan.
-            I en annan skål, blanda chilipulver, farinsocker, paprikapulver, lökpulver, 2 tsk salt och 2 tsk peppar.
+            I en annan skål, blanda chilipulver, farinsocker, paprikapulver, lökpulver, 2 tsk salt och 2 teskedar
+            peppar.
             Tillsätt kycklingen och blanda väl så att kryddorna täcker bitarna.
             Förbered en grill med medelhög värme eller värm en gasgrill i 15 minuter.
-    
+
             Under tiden, blanda poblano-paprika och rödlök med olivolja, en nypa salt och peppar.
             Trä upp kyckling, lök, paprika och bacon på dubbla grillspett så att bitarna inte snurrar.
-    
+
             Grilla spetten i cirka 15 minuter, vänd var tredje minut tills kycklingen är genomstekt och grönsakerna fått
             fina grillmärken.
             Pensla spetten med melassblandningen och grilla ytterligare en minut på varje sida.
             Ta bort spetten från grillen, låt vila i 3 minuter, garnera med mynta och servera varma.
         </p>
-    
+
+        <!-- Image of the finished dish -->
         <img src="/MEDIA/kycklingspett.png " alt="Bild på Eldkryddade Kycklingspett">
     </article>
 
-
+    <!-- Footer with contact information -->
     <footer class="footer-section">
-
         <h3>Kontakta oss</h3>
         <p>📧 contact@ovukarecept.se</p>
         <p>📱 +46 18 567-890</p>
         <p>🏠 Köksvägen 3, Götteborg</p>
-
     </footer>
+
+    <!-- External JavaScript for additional functionality -->
     <script src="/JS/index.js"></script>
 </body>
 

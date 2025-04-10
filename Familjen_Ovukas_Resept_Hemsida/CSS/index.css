@@ -3,6 +3,7 @@
     src: url("/MISC/Tomatoes-O8L8.ttf") format("truetype");
 }
 
+/* Base Reset */
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ body {
     background: #fbf2d3;
 }
 
+/* Navigation */
 nav {
     background-color: #FFF8E1;
     padding: 0.5rem;
@@ -46,7 +48,7 @@ nav h1 {
     min-width: 7em;
 }
 
-/* Mobile-First Menu */
+/* Mobile Menu */
 .menu-toggle {
     display: flex;
     flex-direction: column;
@@ -62,7 +64,6 @@ nav h1 {
     width: 1.56rem;
     height: 0.1875rem;
     background-color: #171515;
-
 }
 
 .nav-links {
@@ -89,7 +90,7 @@ nav h1 {
     display: block;
 }
 
-/* Mobile-First Search */
+/* Search Bar */
 .search-container {
     position: relative;
     width: 90%;
@@ -104,7 +105,6 @@ nav h1 {
     border: 0.0625rem solid #ddd;
     border-radius: 0.3125rem;
     color: #171515;
-    
 }
 
 .search-results {
@@ -234,6 +234,7 @@ footer {
     }
 }
 
+/* Larger Screens */
 @media (min-width: 768px) {
     .hero {
         height: 80vh;

@@ -3,12 +3,14 @@
     src: url("/MISC/QuickKissPersonalUse-PxlZ.ttf") format("truetype");
 }
 
+/* Images */
 img {
     width: 100%;
-    border-radius: 0.5rem;
     max-width: 25rem;
+    border-radius: 0.5rem;
 }
 
+/* Recipe grid layout */
 .recipe-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -20,18 +22,20 @@ img {
     font-family: "QuickKiss", Arial, sans-serif;
 }
 
+/* Recipe card */
 .recipe {
     background-color: #FFF8E1;
     font-size: 1.6rem;
     font-weight: 100;
     padding: 1rem;
     border-radius: 0.5rem;
-    text-decoration: none;
     text-align: center;
     color: black;
+    text-decoration: none;
     box-shadow: 0 0.4rem 0.425rem rgba(0, 0, 0, 0.1);
 }
 
+/* Responsive grid */
 @media (min-width: 768px) {
     .recipe-container {
         grid-template-columns: repeat(3, 1fr);

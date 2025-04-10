@@ -3,6 +3,7 @@
     src: url("/MISC/QuickKissPersonalUse-PxlZ.ttf") format("truetype");
 }
 
+/* Grid layout for recipe section */
 .recipe_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,6 +17,7 @@
         "p p";
 }
 
+/* Shared styling for elements */
 .recipe_container h2,
 .recipe_container p,
 .recipe_container ul,
@@ -25,6 +27,7 @@
     padding: 0.5rem;
 }
 
+/* Header */
 .recipe_container h2 {
     grid-area: h;
     font-family: "QuickKiss", Arial, sans-serif;
@@ -33,11 +36,13 @@
     border-radius: 0.4rem;
 }
 
+/* Paragraph */
 .recipe_container p {
     grid-area: p;
     border-radius: 1rem;
 }
 
+/* Ingredients list */
 .recipe_container ul {
     grid-area: u;
     border-radius: 1rem;
@@ -47,13 +52,14 @@
     margin-left: 1rem;
 }
 
+/* Image */
 .recipe_container img {
     grid-area: i;
     max-width: 100%;
     border-radius: 1rem;
 }
 
-/* Responsive grid for screens wider than 768px */
+/* Responsive layout adjustment */
 @media (min-width: 768px) {
     .recipe_container {
         grid-template-areas:

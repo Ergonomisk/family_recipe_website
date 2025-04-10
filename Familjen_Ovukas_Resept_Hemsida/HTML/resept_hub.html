@@ -2,29 +2,44 @@
 <html lang="en">
 
 <head>
+    <!-- Character encoding and viewport settings for responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page displayed on the browser tab -->
     <title>Ovukas Recept</title>
+
+    <!-- Linking external CSS files for styling -->
     <link rel="stylesheet" href="/CSS/resept_hub.css">
     <link rel="stylesheet" href="/CSS/index.css">
 
 </head>
 
 <body>
+    <!-- Header section containing the navigation bar -->
     <header>
         <nav class="nav-container">
+            <!-- Logo image for the website -->
             <img class="logo" src="/MEDIA/Chillpepper_logo.png" alt="logo">
+
+            <!-- Main title of the website -->
             <h1> Ovukas Recept</h1>
+
+            <!-- Hamburger menu for mobile responsiveness -->
             <div class="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <!-- Navigation links to other pages -->
             <div class="nav-links">
                 <a href="/HTML/startpage.html"> Hem</a>
                 <a href="/HTML/resept_hub.html">Recept</a>
                 <a href="/HTML/omoss.html">Om oss</a>
             </div>
+
+            <!-- Search bar for finding recipes or content -->
             <div class="search-container">
                 <input type="search" class="search-bar" placeholder="Sök...">
                 <div class="search-results"></div>
@@ -32,29 +47,58 @@
         </nav>
     </header>
 
+    <!-- Main content section for displaying recipe links -->
     <main>
         <div class="recipe-container">
-            <a class="recipe" href="/HTML/resept_1.html"><p>Mormor Ovukas Sarma</p><img src="/MEDIA/Sarma_slim.png" alt="Bild på Sarma"></a>
-            <a class="recipe" href="/HTML/resept_2.html"><p>Eriks havrekakor</p><img src="/MEDIA/Havrekakor_slim.png" alt="Bild på havrekakor"></a>
-            <a class="recipe" href="/HTML/resept_3.html"><p>Kalkonchilli</p><img src="/MEDIA/chilli_slim.png" alt="Bild på chilli"></a>
-            <a class="recipe" href="/HTML/resept_4.html"><p>Kycklingspett</p><img src="/MEDIA/kycklingspett_slim.png" alt="Bild på Kycklingspett"></a>
-            <a class="recipe" href="/HTML/resept_5.html"><p>Shepherd's pie</p><img src="/MEDIA/Sheaperdspie_slim.png" alt="Bild på Shepherd's pie"></a>
-            <a class="recipe" href="/HTML/resept_6.html"><p>Flankstek med röd sås och ris</p><img src="/MEDIA/beef_rice_slim.png" alt="Bild på Flankstek med röd sås och ris"></a>
-            <a class="recipe" href="/HTML/resept_7.html"><p>Pyttipanna plus</p><img src="/MEDIA/Pyttipanna_slim.png" alt="Bild på Pyttipanna"></a>
-            <a class="recipe" href="/HTML/resept_8.html"><p>Kyckling Dumplings</p><img src="/MEDIA/dumplings_slim.png" alt="bild på Kyckling Dumplings"></a>
-            <a class="recipe" href="/HTML/resept_9.html"><p>Svart Pudding</p><img src="/MEDIA/svartpudding_slim.png" alt="Bild på Svart Pudding"></a>
+            <!-- Links to individual recipe pages with images and titles -->
+            <a class="recipe" href="/HTML/resept_1.html">
+                <p>Mormor Ovukas Sarma</p>
+                <img src="/MEDIA/Sarma_slim.png" alt="Bild på Sarma">
+            </a>
+            <a class="recipe" href="/HTML/resept_2.html">
+                <p>Eriks havrekakor</p>
+                <img src="/MEDIA/Havrekakor_slim.png" alt="Bild på havrekakor">
+            </a>
+            <a class="recipe" href="/HTML/resept_3.html">
+                <p>Kalkonchilli</p>
+                <img src="/MEDIA/chilli_slim.png" alt="Bild på chilli">
+            </a>
+            <a class="recipe" href="/HTML/resept_4.html">
+                <p>Kycklingspett</p>
+                <img src="/MEDIA/kycklingspett_slim.png" alt="Bild på Kycklingspett">
+            </a>
+            <a class="recipe" href="/HTML/resept_5.html">
+                <p>Shepherd's pie</p>
+                <img src="/MEDIA/Sheaperdspie_slim.png" alt="Bild på Shepherd's pie">
+            </a>
+            <a class="recipe" href="/HTML/resept_6.html">
+                <p>Flankstek med röd sås och ris</p>
+                <img src="/MEDIA/beef_rice_slim.png" alt="Bild på Flankstek med röd sås och ris">
+            </a>
+            <a class="recipe" href="/HTML/resept_7.html">
+                <p>Pyttipanna plus</p>
+                <img src="/MEDIA/Pyttipanna_slim.png" alt="Bild på Pyttipanna">
+            </a>
+            <a class="recipe" href="/HTML/resept_8.html">
+                <p>Kyckling Dumplings</p>
+                <img src="/MEDIA/dumplings_slim.png" alt="bild på Kyckling Dumplings">
+            </a>
+            <a class="recipe" href="/HTML/resept_9.html">
+                <p>Svart Pudding</p>
+                <img src="/MEDIA/svartpudding_slim.png" alt="Bild på Svart Pudding">
+            </a>
         </div>
     </main>
 
+    <!-- Footer section with contact information -->
     <footer class="footer-section">
-    
         <h3>Kontakta oss</h3>
         <p>📧 contact@ovukarecept.se</p>
         <p>📱 +46 18 567-890</p>
         <p>🏠 Köksvägen 3, Götteborg</p>
-    
     </footer>
 
+    <!-- External JavaScript file for additional functionality -->
     <script src="/JS/index.js"></script>
 </body>
 

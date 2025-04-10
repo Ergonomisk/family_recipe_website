@@ -2,73 +2,97 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata and responsive design setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title shown in the browser tab -->
     <title>Ovukas_Recept</title>
+
+    <!-- Link to external stylesheets for layout and visual design -->
     <link rel="stylesheet" href="/CSS/resept.css">
     <link rel="stylesheet" href="/CSS/index.css">
 </head>
 
 <body>
+    <!-- Website header containing navigation -->
     <header>
         <nav class="nav-container">
+            <!-- Website logo -->
             <img class="logo" src="/MEDIA/Chillpepper_logo.png" alt="logo">
+
+            <!-- Website title -->
             <h1> Ovukas Recept</h1>
+
+            <!-- Hamburger menu icon for mobile navigation -->
             <div class="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <!-- Navigation links to different sections/pages -->
             <div class="nav-links">
                 <a href="/HTML/startpage.html"> Hem</a>
                 <a href="/HTML/resept_hub.html">Recept</a>
                 <a href="/HTML/omoss.html">Om oss</a>
             </div>
+
+            <!-- Search bar with dynamic results container -->
             <div class="search-container">
                 <input type="search" class="search-bar" placeholder="Sök...">
                 <div class="search-results"></div>
             </div>
         </nav>
     </header>
-<article class="recipe_container">
-    <h2>Eriks havrekakor</h2>
 
-    <ul>
-        <li>190 g vetemjöl</li>
-        <li>200 g havregryn</li>
-        <li>1 tesked bikarbonat</li>
-        <li>¼ tesked salt</li>
-        <li>280 g farinsocker</li>
-        <li>115 g osaltat smör, rumstempererat</li>
-        <li>1 ägg</li>
-        <li>2 teskedar vaniljextrakt</li>
-        <li>170 g mörka chokladknappar</li>
-        <li>170 g butterscotch-knappar</li>
-    </ul>
+    <!-- Recipe content using CSS grid layout -->
+    <article class="recipe_container">
+        <!-- Recipe title -->
+        <h2>Eriks havrekakor</h2>
 
-    <p>
-        Förvärm ugnen till 175 °C och klä två bakplåtar med bakplåtspapper.
-        Blanda vetemjöl, havregryn, bikarbonat och salt i en skål. Vispa ihop farinsocker och smör tills det blir ljust
-        och krämigt.
-        Tillsätt ägget och vaniljextraktet och rör om. Blanda i mjölblandningen tills allt är jämnt fördelat.
-        Rör ner choklad- och butterscotch-knapparna. Forma små bollar med en matsked och placera på plåtarna med 5 cm
-        mellanrum.
-        Grädda i 15 minuter, rotera plåtarna halvvägs genom gräddningen. Låt svalna några minuter på plåten innan de
-        flyttas till ett galler.
-        Förvara i en lufttät burk i rumstemperatur i upp till 3 dagar.
-    </p>
+        <!-- Ingredient list -->
+        <ul>
+            <li>190 g vetemjöl</li>
+            <li>200 g havregryn</li>
+            <li>1 tesked bikarbonat</li>
+            <li>¼ tesked salt</li>
+            <li>280 g farinsocker</li>
+            <li>115 g osaltat smör, rumstempererat</li>
+            <li>1 ägg</li>
+            <li>2 teskedar vaniljextrakt</li>
+            <li>170 g mörka chokladknappar</li>
+            <li>170 g butterscotch-knappar</li>
+        </ul>
 
-    <img src="/MEDIA/Havrekakor.png" alt="bild på småkakor">
-</article>
+        <!-- Recipe instructions -->
+        <p>
+            Förvärm ugnen till 175 °C och klä två bakplåtar med bakplåtspapper.
+            Blanda vetemjöl, havregryn, bikarbonat och salt i en skål. Vispa ihop farinsocker och smör tills det blir
+            ljust
+            och krämigt.
+            Tillsätt ägget och vaniljextraktet och rör om. Blanda i mjölblandningen tills allt är jämnt fördelat.
+            Rör ner choklad- och butterscotch-knapparna. Forma små bollar med en matsked och placera på plåtarna med 5
+            cm
+            mellanrum.
+            Grädda i 15 minuter, rotera plåtarna halvvägs genom gräddningen. Låt svalna några minuter på plåten innan de
+            flyttas till ett galler.
+            Förvara i en lufttät burk i rumstemperatur i upp till 3 dagar.
+        </p>
 
+        <!-- Recipe image -->
+        <img src="/MEDIA/Havrekakor.png" alt="bild på småkakor">
+    </article>
+
+    <!-- Website footer with contact information -->
     <footer class="footer-section">
-
         <h3>Kontakta oss</h3>
         <p>📧 contact@ovukarecept.se</p>
         <p>📱 +46 18 567-890</p>
         <p>🏠 Köksvägen 3, Götteborg</p>
-
     </footer>
+
+    <!-- External JavaScript for interactivity (e.g., search or mobile menu) -->
     <script src="/JS/index.js"></script>
 </body>
 

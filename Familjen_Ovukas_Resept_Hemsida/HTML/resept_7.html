@@ -2,37 +2,56 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata for character encoding and mobile responsiveness -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page displayed on the browser tab -->
     <title>Ovukas_Recept</title>
+
+    <!-- Linking external CSS files for styling -->
     <link rel="stylesheet" href="/CSS/resept.css">
     <link rel="stylesheet" href="/CSS/index.css">
 </head>
 
 <body>
+    <!-- Header section containing navigation -->
     <header>
         <nav class="nav-container">
+            <!-- Logo image for the website -->
             <img class="logo" src="/MEDIA/Chillpepper_logo.png" alt="logo">
+
+            <!-- Main title of the website -->
             <h1> Ovukas Recept</h1>
+
+            <!-- Hamburger menu for mobile responsiveness -->
             <div class="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <!-- Navigation links to other pages -->
             <div class="nav-links">
                 <a href="/HTML/startpage.html"> Hem</a>
                 <a href="/HTML/resept_hub.html">Recept</a>
                 <a href="/HTML/omoss.html">Om oss</a>
             </div>
+
+            <!-- Search bar for finding recipes or content -->
             <div class="search-container">
                 <input type="search" class="search-bar" placeholder="Sök...">
                 <div class="search-results"></div>
             </div>
         </nav>
     </header>
+
+    <!-- Main content section for the recipe -->
     <article class="recipe_container">
+        <!-- Recipe title -->
         <h2>Pyttipanna special</h2>
-    
+
+        <!-- List of ingredients for the recipe -->
         <ul>
             <li>3 matskedar neutral olja</li>
             <li>450 g färsk korv (valfri smak), skinnet borttaget</li>
@@ -49,7 +68,7 @@
             <li>4 ägg</li>
         </ul>
 
-    
+        <!-- Recipe instructions -->
         <p>
             Hetta upp 1 matsked olja i en stor stekpanna på medelvärme tills det skimrar.
             Tillsätt korven och bryt ner den i små bitar medan den steks, ca 3–4 minuter,
@@ -68,19 +87,20 @@
             är rinnig, ca 8–10 minuter.
             Strö över hackad persilja och servera genast.
         </p>
-    
+
+        <!-- Image of the finished dish -->
         <img src="/MEDIA/Pyttipanna.png" alt="bild på Pyttipanna">
     </article>
 
-
+    <!-- Footer section with contact information -->
     <footer class="footer-section">
-
         <h3>Kontakta oss</h3>
         <p>📧 contact@ovukarecept.se</p>
         <p>📱 +46 18 567-890</p>
         <p>🏠 Köksvägen 3, Götteborg</p>
-
     </footer>
+
+    <!-- External JavaScript file for additional functionality -->
     <script src="/JS/index.js"></script>
 </body>
 
