@@ -15,15 +15,15 @@ menuToggle.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     // Define the list of recipes for searching
     const recipes = [
-        { name: "Sarma", link: "/HTML/resept_1.html" },
-        { name: "Eriks havrekakor", link: "/HTML/resept_2.html" },
-        { name: "Kalkonchilli", link: "/HTML/resept_3.html" },
-        { name: "Kycklingspett", link: "/HTML/resept_4.html" },
-        { name: "Shepherd's pie", link: "/HTML/resept_5.html" },
-        { name: "Flankstek med röd sås och ris", link: "/HTML/resept_6.html" },
-        { name: "Pyttipanna plus", link: "/HTML/resept_7.html" },
-        { name: "Kyckling Dumplings", link: "/HTML/resept_8.html" },
-        { name: "Svart Pudding", link: "/HTML/resept_9.html" }
+        { name: "Sarma", link: "../HTML/resept_1.html" },
+        { name: "Eriks havrekakor", link: "../HTML/resept_2.html" },
+        { name: "Kalkonchilli", link: "../HTML/resept_3.html" },
+        { name: "Kycklingspett", link: "../HTML/resept_4.html" },
+        { name: "Shepherd's pie", link: "../HTML/resept_5.html" },
+        { name: "Flankstek med röd sås och ris", link: "../HTML/resept_6.html" },
+        { name: "Pyttipanna plus", link: "../HTML/resept_7.html" },
+        { name: "Kyckling Dumplings", link: "../HTML/resept_8.html" },
+        { name: "Svart Pudding", link: "../HTML/resept_9.html" }
     ];
 
     // Listen for input events on the search bar

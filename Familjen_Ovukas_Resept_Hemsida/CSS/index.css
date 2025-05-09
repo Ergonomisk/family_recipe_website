@@ -1,6 +1,6 @@
 @font-face {
     font-family: "tomatoes";
-    src: url("/MISC/Tomatoes-O8L8.ttf") format("truetype");
+    src: url("../MISC/Tomatoes-O8L8.ttf") format("truetype");
 }
 
 /* Base Reset */
@@ -136,7 +136,7 @@ nav h1 {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.65)), url("/MEDIA/heroimage.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.65)), url("../MEDIA/heroimage.png");
     background-size: cover;
     background-position: center;
     height: 60vh;
